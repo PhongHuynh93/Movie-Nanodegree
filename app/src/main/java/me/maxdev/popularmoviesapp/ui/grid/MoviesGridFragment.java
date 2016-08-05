@@ -22,13 +22,13 @@ import me.maxdev.popularmoviesapp.data.SortHelper;
 import me.maxdev.popularmoviesapp.ui.EndlessRecyclerViewOnScrollListener;
 import me.maxdev.popularmoviesapp.ui.SortingDialogFragment;
 
-// TODO: 7/28/16 this is a view for showing a list of popular movies
 public class MoviesGridFragment extends AbstractMoviesGridFragment {
 
     private MoviesService moviesService;
     private SortHelper sortHelper;
     private EndlessRecyclerViewOnScrollListener endlessRecyclerViewOnScrollListener;
 
+    // TODO: 8/1/16 save data to list
     private BroadcastReceiver broadcastReceiver = new BroadcastReceiver() {
         @Override
         public void onReceive(Context context, Intent intent) {
